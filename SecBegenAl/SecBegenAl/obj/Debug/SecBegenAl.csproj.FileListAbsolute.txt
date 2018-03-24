@@ -1,0 +1,13 @@
+c:\users\samed\documents\visual studio 2013\Projects\SecBegenAl\SecBegenAl\bin\Debug\SecBegenAl.exe.config
+c:\users\samed\documents\visual studio 2013\Projects\SecBegenAl\SecBegenAl\bin\Debug\SecBegenAl.exe
+c:\users\samed\documents\visual studio 2013\Projects\SecBegenAl\SecBegenAl\bin\Debug\SecBegenAl.pdb
+c:\users\samed\documents\visual studio 2013\Projects\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.Form1.resources
+c:\users\samed\documents\visual studio 2013\Projects\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.Properties.Resources.resources
+c:\users\samed\documents\visual studio 2013\Projects\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.csproj.GenerateResource.Cache
+c:\users\samed\documents\visual studio 2013\Projects\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.exe
+c:\users\samed\documents\visual studio 2013\Projects\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.pdb
+c:\users\samed\documents\visual studio 2013\Projects\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.MainPage.resources
+c:\users\samed\documents\visual studio 2013\Projects\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.CategoryMenu.resources
+c:\users\samed\documents\visual studio 2013\Projects\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.KayitOl.resources
+c:\users\samed\documents\visual studio 2013\Projects\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.Urunler.resources
+C:\Users\samed\Documents\Visual Studio 2013\Projects\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.UrunDetay.resources
