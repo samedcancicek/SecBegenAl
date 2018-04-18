@@ -21,24 +21,5 @@ namespace SecBegenAl
         {
 
         }
-
-        private void CategoryMenu_Load(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void CategoryMenu_MouseHover(object sender, EventArgs e)
-        {
-            
-        }
-
-
-        public void menugoster() {
-
-            this.Show();
-            this.BringToFront();
-        }
-
-
     }
 }

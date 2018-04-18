@@ -10,4 +10,20 @@ c:\users\samed\documents\visual studio 2013\Projects\SecBegenAl\SecBegenAl\obj\D
 c:\users\samed\documents\visual studio 2013\Projects\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.CategoryMenu.resources
 c:\users\samed\documents\visual studio 2013\Projects\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.KayitOl.resources
 c:\users\samed\documents\visual studio 2013\Projects\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.Urunler.resources
-C:\Users\samed\Documents\Visual Studio 2013\Projects\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.UrunDetay.resources
+C:\Users\samed\Documents\Visual Studio 2013\Projects\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.csprojResolveAssemblyReference.cache
+C:\Users\Hamdiye kaya\Desktop\SecBegenAl\SecBegenAl\bin\Debug\SecBegenAl.exe.config
+C:\Users\Hamdiye kaya\Desktop\SecBegenAl\SecBegenAl\bin\Debug\SecBegenAl.exe
+C:\Users\Hamdiye kaya\Desktop\SecBegenAl\SecBegenAl\bin\Debug\SecBegenAl.pdb
+C:\Users\Hamdiye kaya\Desktop\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.CategoryMenu.resources
+C:\Users\Hamdiye kaya\Desktop\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.Form1.resources
+C:\Users\Hamdiye kaya\Desktop\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.Girisyap.resources
+C:\Users\Hamdiye kaya\Desktop\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.GirisYapildi.resources
+C:\Users\Hamdiye kaya\Desktop\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.KayitOl.resources
+C:\Users\Hamdiye kaya\Desktop\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.MainPage.resources
+C:\Users\Hamdiye kaya\Desktop\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.Properties.Resources.resources
+C:\Users\Hamdiye kaya\Desktop\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.SaticiKayit.resources
+C:\Users\Hamdiye kaya\Desktop\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.Urunler.resources
+C:\Users\Hamdiye kaya\Desktop\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.csproj.GenerateResource.Cache
+C:\Users\Hamdiye kaya\Desktop\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.exe
+C:\Users\Hamdiye kaya\Desktop\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.pdb
+C:\Users\Hamdiye kaya\Desktop\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.csprojResolveAssemblyReference.cache

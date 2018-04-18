@@ -20,10 +20,6 @@ namespace SecBegenAl
 
         }
 
-        
-
-
-
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
@@ -36,18 +32,17 @@ namespace SecBegenAl
 
         private void KayıtLabel_Click(object sender, EventArgs e)
         {
-            kayitOl1.BringToFront();
+            kayitOl1.start();
         }
 
         private void button6_MouseHover(object sender, EventArgs e)
         {
            
-                //categoryMenu1.BringToFront();
-            categoryMenu1.menugoster();
+          categoryMenu1.BringToFront();
+            
 
         }
-        bool kategorimenu = false;
-        bool kategorimenu2 = false;
+       
         private void button6_MouseLeave(object sender, EventArgs e)
         {
            
@@ -55,7 +50,7 @@ namespace SecBegenAl
 
         private void categoryMenu1_MouseLeave(object sender, EventArgs e)
         {
-            mainPage1.BringToFront();
+            
         }
 
         private void KategoriPanel_MouseLeave(object sender, EventArgs e)
@@ -90,43 +85,42 @@ namespace SecBegenAl
 
         private void button6_Click(object sender, EventArgs e)
         {
-           
-
-            
-           // urunler3.BringToFront();
-            urunler3.urunpaneliac();
+            urunler1.BringToFront();
         }
 
-
-
-
-
-        public void urungetir()
+        private void GirisLabel_Click(object sender, EventArgs e)
         {
- 
-            urunDetay1.BringToFront();
+            // girisyap1.BringToFront();
+            girisyap1.start();
+        }
+
+        private void mainPage1_Load(object sender, EventArgs e)
+        {
 
         }
-        public void urungetir(PictureBox img) {
 
+        private void kayitOl1_Load(object sender, EventArgs e)
+        {
 
-            urunDetay1.urunyerlestir(img);
-            urunDetay1.BringToFront();
+        }
 
+        private void label1_Click(object sender, EventArgs e)
+        {
+            saticiKayit1.BringToFront();
+        }
+
+        private void saticiKayit1_Load(object sender, EventArgs e)
+        {
+
+        }
+       
+        private void girisyap1_Load(object sender, EventArgs e)
+        {
         
         }
-        public void urungetir(Label lbl)
-        {
 
-            
-            urunDetay1.urunyerlestir(lbl);
-            urunDetay1.BringToFront();
-
-
-        }
-
-        private void categoryMenu1_MouseHover(object sender, EventArgs e)
-        {
+        public void kayitGoruntule() {
+            kayitOl1.BringToFront();
 
         }
 
