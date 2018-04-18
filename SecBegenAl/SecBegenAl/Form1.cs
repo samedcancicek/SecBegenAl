@@ -17,9 +17,18 @@ namespace SecBegenAl
             InitializeComponent();
             WindowState = FormWindowState.Maximized;
             mainPage1.BringToFront();
+            label1.Visible = false;
 
         }
+        public Form1(int id)
+        {
+            InitializeComponent();
+            WindowState = FormWindowState.Maximized;
+            mainPage1.BringToFront();
 
+
+
+        }
         
 
 
@@ -43,7 +52,7 @@ namespace SecBegenAl
         {
            
                 //categoryMenu1.BringToFront();
-            categoryMenu1.menugoster();
+           // categoryMenu1.menugoster(6);
 
         }
         bool kategorimenu = false;
@@ -76,7 +85,7 @@ namespace SecBegenAl
 
         private void categoryMenu1_Leave(object sender, EventArgs e)
         {
-            if ((categoryMenu1.Location.Y > Cursor.Position.Y && categoryMenu1.Location.Y + categoryMenu1.Width < Cursor.Position.Y) && (categoryMenu1.Location.X > Cursor.Position.X && categoryMenu1.Location.X + categoryMenu1.Width < Cursor.Position.X))
+            //if ((categoryMenu1.Location.Y > Cursor.Position.Y && categoryMenu1.Location.Y + categoryMenu1.Width < Cursor.Position.Y) && (categoryMenu1.Location.X > Cursor.Position.X && categoryMenu1.Location.X + categoryMenu1.Width < Cursor.Position.X))
                   mainPage1.BringToFront();
             
             
@@ -94,10 +103,17 @@ namespace SecBegenAl
 
             
            // urunler3.BringToFront();
-            urunler3.urunpaneliac();
+            urunler3.urunpaneliac(1);
         }
 
 
+
+        public void urunleriGoster(int cinsiyetKategori, int kategoriID)
+        {
+            urunler3.kategoriyeGoreUrunGetir(cinsiyetKategori, kategoriID);
+        
+        
+        }
 
 
 
@@ -129,6 +145,72 @@ namespace SecBegenAl
         {
 
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            //Profil
+            GirisLabel.Visible = false;
+            KayıtLabel.Visible = false;
+
+        }
+
+        private void GirisLabel_Click(object sender, EventArgs e)
+        {
+
+            label1.Visible = true;
+            GirisLabel.Visible = false;
+            KayıtLabel.Visible = false;
+
+        }
+
+        private void categoryMenu1_MouseEnter(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void btnKadin_MouseHover(object sender, EventArgs e)
+        {
+            categoryMenu1.menugoster(1);
+            
+
+
+        }
+
+        private void btnErkek_MouseHover(object sender, EventArgs e)
+        {
+           // categoryMenu1.menugoster(2);
+        }
+
+        private void btnCocuk_MouseHover(object sender, EventArgs e)
+        {
+           // categoryMenu1.menugoster(3);
+        }
+
+        private void btnBebek_MouseHover(object sender, EventArgs e)
+        {
+           // categoryMenu1.menugoster(4);
+            
+        }
+        
+        private void mainPage1_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void btnKadin_Click(object sender, EventArgs e)
+        {
+            urunler3.urunpaneliac(1);
+        }
+
+        private void btnErkek_Click(object sender, EventArgs e)
+        {
+            urunler3.urunpaneliac(2);
+        }
+
+      
+
+
+        
 
     }
 }

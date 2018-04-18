@@ -11,3 +11,5 @@ c:\users\samed\documents\visual studio 2013\Projects\SecBegenAl\SecBegenAl\obj\D
 c:\users\samed\documents\visual studio 2013\Projects\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.KayitOl.resources
 c:\users\samed\documents\visual studio 2013\Projects\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.Urunler.resources
 C:\Users\samed\Documents\Visual Studio 2013\Projects\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.UrunDetay.resources
+C:\Users\samed\documents\visual studio 2013\Projects\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.csprojResolveAssemblyReference.cache
+C:\Users\samed\documents\visual studio 2013\Projects\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.UrunEkle.resources
