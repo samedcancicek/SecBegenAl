@@ -99,11 +99,11 @@ namespace SecBegenAl
 
         private void button6_Click(object sender, EventArgs e)
         {
-           
 
-            
+
+            urunEkle1.urunEkleSayfaAc();
            // urunler3.BringToFront();
-            urunler3.urunpaneliac(1);
+            //urunler3.butonaTiklayinca(1);
         }
 
 
@@ -199,12 +199,12 @@ namespace SecBegenAl
 
         private void btnKadin_Click(object sender, EventArgs e)
         {
-            urunler3.urunpaneliac(1);
+            urunler3.butonaTiklayinca(1);
         }
 
         private void btnErkek_Click(object sender, EventArgs e)
         {
-            urunler3.urunpaneliac(2);
+            urunler3.butonaTiklayinca(2);
         }
 
       

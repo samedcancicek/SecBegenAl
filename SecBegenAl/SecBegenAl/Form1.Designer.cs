@@ -47,6 +47,7 @@
             this.kayitOl1 = new SecBegenAl.KayitOl();
             this.urunDetay1 = new SecBegenAl.UrunDetay();
             this.urunler3 = new SecBegenAl.Urunler();
+            this.urunEkle1 = new SecBegenAl.UrunEkle();
             this.panel1.SuspendLayout();
             this.KategoriPanel.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -64,6 +65,7 @@
             this.panel1.Controls.Add(this.kayitOl1);
             this.panel1.Controls.Add(this.urunDetay1);
             this.panel1.Controls.Add(this.urunler3);
+            this.panel1.Controls.Add(this.urunEkle1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
@@ -268,6 +270,14 @@
             this.urunler3.Size = new System.Drawing.Size(1587, 628);
             this.urunler3.TabIndex = 11;
             // 
+            // urunEkle1
+            // 
+            this.urunEkle1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.urunEkle1.Location = new System.Drawing.Point(0, 0);
+            this.urunEkle1.Name = "urunEkle1";
+            this.urunEkle1.Size = new System.Drawing.Size(1587, 628);
+            this.urunEkle1.TabIndex = 12;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -308,6 +318,7 @@
         private System.Windows.Forms.Button btnCocuk;
         private System.Windows.Forms.Button btnErkek;
         private System.Windows.Forms.Button btnKadin;
+        private UrunEkle urunEkle1;
     }
 }
 

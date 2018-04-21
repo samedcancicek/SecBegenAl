@@ -30,7 +30,7 @@ namespace SecBegenAl
         }
 
 
-        public void urunpaneliac(int cinsiyetKategori) {
+        public void butonaTiklayinca(int cinsiyetKategori) {
 
             if (cinsiyetKategori == 1)
                 sqlsorgu = "Select * From Kadin_Urun";
@@ -92,9 +92,9 @@ namespace SecBegenAl
 
 
             if (cinsiyetKategori == 1)
-                   sqlsorgu="Select * from Kadin_Urun where Kategori="+kategoriID+"";
+                   sqlsorgu="Select * from Kadin_Urun where Kategori="+kategoriID;
             if (cinsiyetKategori == 2)
-                   sqlsorgu = "Select * from Erkek_Urun where Erkek_Urun_id=(Select Erkek_Urun_id from Erkek_Kategori_Urun_Ara where Erkek_Kategori_id=" + kategoriID + ")";
+                   sqlsorgu = "Select * from Erkek_Urun where where Kategori_id=" + kategoriID;
 
 
             kategoriyeGoreUrunSorgula(cinsiyetKategori);
@@ -105,7 +105,7 @@ namespace SecBegenAl
             //urunler listesini doldurmak için
             urunler.Clear();
 
-            Urun urun = new Urun();
+            Urun urun;
 
             baglanti = new OleDbConnection("Provider=Microsoft.ACE.OleDb.12.0;Data Source=SecBegen.accdb");
             baglanti.Open();
@@ -117,7 +117,7 @@ namespace SecBegenAl
             da.Fill(tablo);
             foreach (DataRow row in tablo.Rows)
             {
-                
+                urun=new Urun();
                  urun.cinsiyetKategori = cinsiyetKategori;
                  urun.urun_adi=(row["Urun_Adi"].ToString());
                  urun.beden=(row["Beden"].ToString());
@@ -126,6 +126,7 @@ namespace SecBegenAl
                  urun.fiyat= (int.Parse(row["Fiyat"].ToString()));
                  urun.resim_url = (int.Parse(row["Resim_URL"].ToString()));
                  urun.satici_id = (int.Parse(row["Satici_id"].ToString()));
+                 urun.kategori = (int.Parse(row["Kategori"].ToString()));
                 if(cinsiyetKategori==1)
                  urun.id = (int.Parse(row["Kadin_Urun_id"].ToString()));
                 else if (cinsiyetKategori == 1)
@@ -164,6 +165,7 @@ namespace SecBegenAl
         * bebek erkek 11
         * bebek unisex 12 
         */
+               
                 urunler.Add(urun);
 
 
@@ -198,7 +200,7 @@ namespace SecBegenAl
             FlowLayoutPanel[] panel = new FlowLayoutPanel[10];
             for (int i = 0; i < urunler.Count; i++)
             {
-
+                
                 //iç paneli oluşturma resim ve label koymak için
                 panel[i] = new FlowLayoutPanel();
                 panel[i].Size = new Size(300, 500);

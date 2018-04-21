@@ -31,13 +31,13 @@ namespace SecBegenAl
         public int resim_url;
         public int satici_id;
         public string urun_adi;
-
+        public int kategori;
         
         
         public Urun() { }
        
         
-        public Urun(int cinsiyetKategori, int id, string aciklama, int renk, string beden, int fiyat, int resim_url, int satici_id, string urun_adi)
+        public Urun(int cinsiyetKategori, int id, string aciklama, int renk, string beden, int fiyat, int resim_url, int satici_id, string urun_adi,int kategori)
         {
             this.cinsiyetKategori = cinsiyetKategori;
             this.id = id;
@@ -48,12 +48,14 @@ namespace SecBegenAl
             this.resim_url = resim_url;
             this.satici_id = satici_id;
             this.urun_adi = urun_adi;
-
+            this.kategori = kategori;
         }
 
 
 
-
+        public string yazdir() {
+            return urun_adi +" "+aciklama;
+        }
 
 
 
