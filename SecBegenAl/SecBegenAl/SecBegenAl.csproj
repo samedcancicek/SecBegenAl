@@ -63,12 +63,6 @@
     <Compile Include="Girisyap.Designer.cs">
       <DependentUpon>Girisyap.cs</DependentUpon>
     </Compile>
-    <Compile Include="GirisYapildi.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="GirisYapildi.Designer.cs">
-      <DependentUpon>GirisYapildi.cs</DependentUpon>
-    </Compile>
     <Compile Include="KayitOl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -81,6 +75,12 @@
     <Compile Include="MainPage.Designer.cs">
       <DependentUpon>MainPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="Profil.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Profil.Designer.cs">
+      <DependentUpon>Profil.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SaticiKayit.cs">
@@ -88,6 +88,12 @@
     </Compile>
     <Compile Include="SaticiKayit.Designer.cs">
       <DependentUpon>SaticiKayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sepet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Sepet.Designer.cs">
+      <DependentUpon>Sepet.cs</DependentUpon>
     </Compile>
     <Compile Include="Urunler.cs">
       <SubType>UserControl</SubType>
@@ -104,14 +110,14 @@
     <EmbeddedResource Include="Girisyap.resx">
       <DependentUpon>Girisyap.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GirisYapildi.resx">
-      <DependentUpon>GirisYapildi.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="KayitOl.resx">
       <DependentUpon>KayitOl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainPage.resx">
       <DependentUpon>MainPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profil.resx">
+      <DependentUpon>Profil.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -125,6 +131,9 @@
     </Compile>
     <EmbeddedResource Include="SaticiKayit.resx">
       <DependentUpon>SaticiKayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sepet.resx">
+      <DependentUpon>Sepet.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Urunler.resx">
       <DependentUpon>Urunler.cs</DependentUpon>
