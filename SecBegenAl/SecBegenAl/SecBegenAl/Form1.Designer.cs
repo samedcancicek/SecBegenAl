@@ -30,14 +30,16 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.saticiGiris2 = new SecBegenAl.SaticiGiris();
+            this.mainPage2 = new SecBegenAl.MainPage();
             this.KategoriPanel = new System.Windows.Forms.Panel();
             this.button6 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.saticiGiris1 = new SecBegenAl.SaticiGiris();
             this.KayıtLabel = new System.Windows.Forms.Label();
             this.GirisLabel = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.closeButton = new System.Windows.Forms.Button();
-            this.mainPage2 = new SecBegenAl.MainPage();
             this.saticiProfil2 = new SecBegenAl.SaticiProfil();
             this.categoryMenu3 = new SecBegenAl.CategoryMenu();
             this.panel1.SuspendLayout();
@@ -49,6 +51,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.panel1.Controls.Add(this.saticiGiris2);
             this.panel1.Controls.Add(this.mainPage2);
             this.panel1.Controls.Add(this.KategoriPanel);
             this.panel1.Controls.Add(this.panel3);
@@ -61,6 +64,22 @@
             this.panel1.Size = new System.Drawing.Size(1087, 628);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // saticiGiris2
+            // 
+            this.saticiGiris2.Location = new System.Drawing.Point(263, 194);
+            this.saticiGiris2.Name = "saticiGiris2";
+            this.saticiGiris2.Size = new System.Drawing.Size(524, 603);
+            this.saticiGiris2.TabIndex = 8;
+            // 
+            // mainPage2
+            // 
+            this.mainPage2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.mainPage2.Location = new System.Drawing.Point(0, 135);
+            this.mainPage2.Name = "mainPage2";
+            this.mainPage2.Size = new System.Drawing.Size(1087, 493);
+            this.mainPage2.TabIndex = 5;
+            this.mainPage2.Load += new System.EventHandler(this.mainPage2_Load);
             // 
             // KategoriPanel
             // 
@@ -88,6 +107,7 @@
             // 
             // panel3
             // 
+            this.panel3.Controls.Add(this.saticiGiris1);
             this.panel3.Controls.Add(this.KayıtLabel);
             this.panel3.Controls.Add(this.GirisLabel);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
@@ -95,6 +115,13 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1087, 44);
             this.panel3.TabIndex = 3;
+            // 
+            // saticiGiris1
+            // 
+            this.saticiGiris1.Location = new System.Drawing.Point(0, 0);
+            this.saticiGiris1.Name = "saticiGiris1";
+            this.saticiGiris1.Size = new System.Drawing.Size(524, 603);
+            this.saticiGiris1.TabIndex = 3;
             // 
             // KayıtLabel
             // 
@@ -145,14 +172,6 @@
             this.closeButton.TabIndex = 1;
             this.closeButton.UseVisualStyleBackColor = false;
             this.closeButton.Click += new System.EventHandler(this.closeButton_Click);
-            // 
-            // mainPage2
-            // 
-            this.mainPage2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.mainPage2.Location = new System.Drawing.Point(0, 135);
-            this.mainPage2.Name = "mainPage2";
-            this.mainPage2.Size = new System.Drawing.Size(1087, 493);
-            this.mainPage2.TabIndex = 5;
             // 
             // saticiProfil2
             // 
@@ -207,6 +226,8 @@
         private MainPage mainPage2;
         private SaticiProfil saticiProfil2;
         private CategoryMenu categoryMenu3;
+        private SaticiGiris saticiGiris2;
+        private SaticiGiris saticiGiris1;
     }
 }
 

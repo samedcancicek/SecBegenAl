@@ -26,5 +26,10 @@ namespace SecBegenAl
         {
 
         }
+
+        private void MainPage_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

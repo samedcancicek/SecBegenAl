@@ -194,6 +194,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "MainPage";
             this.Size = new System.Drawing.Size(1927, 2228);
+            this.Load += new System.EventHandler(this.MainPage_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();

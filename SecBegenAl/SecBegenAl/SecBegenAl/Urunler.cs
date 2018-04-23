@@ -17,31 +17,7 @@ namespace SecBegenAl
             InitializeComponent();
             
 
-           
-            
-            /*for (int i = 0; i < 10; i++)
-            {
-                lbl[i] = new Label();
-                img[i] = new PictureBox();
-                //img[i].Text = "Btuuın" + i;
-                lbl[i].Size = new Size(300, 50);
-                lbl[i].Text = "deneme" + i;
-                img[i].Size = new Size(300, 500);
-                //img[i].Name = "buton1";
-                img[i].BackgroundImage = Image.FromFile("kediler.jpg");
-                img[i].BackgroundImageLayout = ImageLayout.Stretch;
-                var margin = img[i].Margin;
-                margin.Left = 20;
-                margin.Top = 20;
-                img[i].Margin = margin;
-                //box[i].Location = new Point(50, i * 40);
-                //box[i].BringToFront();
-                flowLayoutPanel2.Controls.Add(img[i]);
-                flowLayoutPanel2.Controls.Add(lbl[i]);
-                //this.Controls.Add(box[i]);
-            }*/
-
-
+      
             CheckBox[] box = new CheckBox[10];
             for (int i = 0; i < 10; i++)
             {

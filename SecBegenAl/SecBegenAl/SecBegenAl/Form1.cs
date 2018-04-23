@@ -33,7 +33,7 @@ namespace SecBegenAl
 
         private void KayıtLabel_Click(object sender, EventArgs e)
         {
-            kayitOl1.BringToFront();
+            saticiGiris2.BringToFront();
         }
 
         private void button6_MouseHover(object sender, EventArgs e)
@@ -94,6 +94,11 @@ namespace SecBegenAl
         {
             saticiProfil2.BringToFront();
             
+        }
+
+        private void mainPage2_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
