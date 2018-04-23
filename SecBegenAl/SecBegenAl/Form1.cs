@@ -17,9 +17,37 @@ namespace SecBegenAl
             InitializeComponent();
             WindowState = FormWindowState.Maximized;
             mainPage1.BringToFront();
-
+            girisYok();
         }
+        int kullanici_id;
+        public void girisYapti(int kullanici_id)
+        {
+            this.kullanici_id = kullanici_id;
 
+            GirisLabel.Hide();
+            KayıtLabel.Hide();
+            saticiol.Hide();
+            ProfilLabel.Show();
+            sepetim.Show();
+            cikis.Show();
+            analabel.Hide();
+            profilY.Hide();
+            
+        }
+        public void girisYok()
+        {
+            cikis.Hide();
+            sepetim.Hide();
+            ProfilLabel.Hide();
+            GirisLabel.Show();
+            KayıtLabel.Show();
+            saticiol.Show();
+            analabel.Hide();
+            profil2.Hide();
+            mainPage1.Show();
+            sepet1.Hide();
+            profilY.Hide();
+        }
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
@@ -33,6 +61,7 @@ namespace SecBegenAl
         private void KayıtLabel_Click(object sender, EventArgs e)
         {
             kayitOl1.start();
+            kayitOl1.Show();
         }
 
         private void button6_MouseHover(object sender, EventArgs e)
@@ -74,8 +103,7 @@ namespace SecBegenAl
             if ((categoryMenu1.Location.Y > Cursor.Position.Y && categoryMenu1.Location.Y + categoryMenu1.Width < Cursor.Position.Y) && (categoryMenu1.Location.X > Cursor.Position.X && categoryMenu1.Location.X + categoryMenu1.Width < Cursor.Position.X))
                   mainPage1.BringToFront();
             
-            
-            
+          
         }
 
         private void mainPage1_Enter(object sender, EventArgs e)
@@ -85,26 +113,16 @@ namespace SecBegenAl
 
         private void button6_Click(object sender, EventArgs e)
         {
-            urunler1.BringToFront();
+            
         }
 
-        private void GirisLabel_Click(object sender, EventArgs e)
-        {
-            // girisyap1.BringToFront();
-            girisyap1.start();
-        }
-
+     
         private void mainPage1_Load(object sender, EventArgs e)
         {
-
         }
 
-        private void kayitOl1_Load(object sender, EventArgs e)
-        {
 
-        }
-
-        private void label1_Click(object sender, EventArgs e)
+        private void saticiol_Click(object sender, EventArgs e)
         {
             saticiKayit1.BringToFront();
         }
@@ -124,5 +142,93 @@ namespace SecBegenAl
 
         }
 
+        private void GirisLabel_Click(object sender, EventArgs e)
+        {
+            girisyap1.start();
+            girisyap1.Show();
+        }
+
+        private void sepetim_Click(object sender, EventArgs e)
+        {
+      
+            profil2.Hide();
+            sepet1.Show();
+            sepet1.sepetGoruntule();
+            categoryMenu2.Hide();
+            ProfilLabel.Hide();
+            analabel.Show();
+            mainPage1.Hide();
+            categoryMenu1.Hide();
+            girisyap1.Hide();
+            saticiKayit1.Hide();
+            kayitOl1.Hide();
+            KategoriPanel.Hide();
+            sepetim.Hide();
+            profilY.Show();
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void Profil_Click(object sender, EventArgs e)
+        {
+            profil2.Show();
+            profil2.profilGoruntule();
+            categoryMenu2.Hide();
+            ProfilLabel.Hide();
+            analabel.Show();
+            mainPage1.Hide();
+            categoryMenu1.Hide();
+            girisyap1.Hide();
+            saticiKayit1.Hide();
+            kayitOl1.Hide();
+            KategoriPanel.Hide();
+            sepetim.Show();
+
+        }
+
+        private void analabel_Click(object sender, EventArgs e)
+        {
+            profil2.Hide(); 
+            categoryMenu2.Show();
+            ProfilLabel.Show();
+            analabel.Hide();
+            mainPage1.Show();
+            categoryMenu1.Show();
+            girisyap1.Hide();
+            saticiKayit1.Hide();
+            kayitOl1.Hide();
+            KategoriPanel.Show();
+            profilY.Hide();
+            sepetim.Show();
+            sepet1.Hide();
+        }
+
+  
+        private void cikis_Click(object sender, EventArgs e)
+        {
+            girisYok();
+         
+
+        }
+
+        private void profilY_Click(object sender, EventArgs e)
+        {
+            profil2.Show();
+            profil2.profilGoruntule();
+            categoryMenu2.Hide();
+            ProfilLabel.Hide();
+            analabel.Show();
+            mainPage1.Hide();
+            categoryMenu1.Hide();
+            girisyap1.Hide();
+            saticiKayit1.Hide();
+            kayitOl1.Hide();
+            KategoriPanel.Hide();
+            profilY.Hide();
+            sepetim.Show();
+        }
     }
 }

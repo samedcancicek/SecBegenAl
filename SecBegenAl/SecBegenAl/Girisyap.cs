@@ -16,16 +16,15 @@ namespace SecBegenAl
     public partial class Girisyap : UserControl
     {
         OleDbConnection baglanti  = new OleDbConnection("Provider=Microsoft.ACE.OleDb.12.0;Data Source=SecBegen.accdb");
-        OleDbCommand komut;
         OleDbDataAdapter da;
-        OleDbDataReader datare;
-        DataSet set = new DataSet();
-        string sqlsorgu="";
-       
+
+        public int a = 0;
+
         public Girisyap()
         {
             InitializeComponent();
         }
+
         public void start()
         {
             this.BringToFront();
@@ -68,39 +67,37 @@ namespace SecBegenAl
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)//Giriş Yapılma
         {
-            /*  baglanti.Open();
-              string sorgu ="Select * from Kullanici ";
-              da = new OleDbDataAdapter(sorgu, baglanti);
+            int a = 0;
+        
+              baglanti.Open();  //Bağlantı Açıldı
+              string sorgu ="Select * from Kullanici ";  //Bütün kullanıcıları gezmesi için sorgu
+              da = new OleDbDataAdapter(sorgu, baglanti); 
               DataTable tablo = new DataTable();
               da.Fill(tablo);
-              foreach (DataRow row in tablo.Rows)
+              foreach (DataRow row in tablo.Rows)//tablo satırları gezilir
               {
-                  MessageBox.Show(row["E-posta"].ToString());
-                  if (textBox1.Text==(row["E-posta"].ToString()) && textBox3.Text==(row["Parola"].ToString()))
+                 
+                  if (textBox1.Text==(row["Eposta"].ToString()) && textBox3.Text==(row["Parola"].ToString()))
                   {
-                      MessageBox.Show("Giriş Başarılı");
-                  }
-
-
+                    Form1 f = new Form1();
+                    f.Show();
+                    f.girisYapti(int.Parse(row["Kullanici_id"].ToString()));
+                    this.ParentForm.Hide();
+                    a = 1;
+                }
+                      
               }
-              MessageBox.Show("Giriş Başarısız");
-              baglanti.Close();*/
-
-            baglanti.Open();
-            komut = new OleDbCommand("select * from Kullanici where E-posta='" + textBox1.Text + "' and sifre='" + textBox3.Text + "'", baglanti);
-            datare = komut.ExecuteReader();
-
-            if (datare.Read())
+            if (a==0)
             {
-                MessageBox.Show("asdf");
+                
+                MessageBox.Show("Giriş Başarısız");
+                
+                
             }
-            else
-            {
-                MessageBox.Show("Kullanıcı Adı ve ya Şifre Hatalı. Doğru girdiğinizden lütfen emin olunuz.");
-            }
-            baglanti.Close();
+              baglanti.Close();
+              
         }
     }
 }
