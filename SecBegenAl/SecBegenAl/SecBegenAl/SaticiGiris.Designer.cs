@@ -89,9 +89,9 @@
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label7.Location = new System.Drawing.Point(29, 451);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(146, 29);
+            this.label7.Size = new System.Drawing.Size(166, 29);
             this.label7.TabIndex = 20;
-            this.label7.Text = "Şifre Kontrol";
+            this.label7.Text = "Parola Kontrol";
             // 
             // label6
             // 
@@ -99,9 +99,9 @@
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label6.Location = new System.Drawing.Point(29, 377);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(63, 29);
+            this.label6.Size = new System.Drawing.Size(83, 29);
             this.label6.TabIndex = 19;
-            this.label6.Text = "Şifre";
+            this.label6.Text = "Parola";
             // 
             // label5
             // 
@@ -159,6 +159,7 @@
             this.button2.TabIndex = 31;
             this.button2.Text = "Kaydet";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // SaticiGiris
             // 

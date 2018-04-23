@@ -29,4 +29,4 @@ C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.
 C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.urun_detay.resources
 C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.csproj.GenerateResource.Cache
 C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.urunlerim.resources
-C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.csprojResolveAssemblyReference.cache
+C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.SaticiBilgiGuncelle.resources
