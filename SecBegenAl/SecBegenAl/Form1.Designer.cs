@@ -30,18 +30,18 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.saticiGiris2 = new SecBegenAl.SaticiGiris();
+            this.mainPage2 = new SecBegenAl.MainPage();
             this.KategoriPanel = new System.Windows.Forms.Panel();
             this.button6 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.saticiGiris1 = new SecBegenAl.SaticiGiris();
             this.KayıtLabel = new System.Windows.Forms.Label();
             this.GirisLabel = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.closeButton = new System.Windows.Forms.Button();
-            this.categoryMenu1 = new SecBegenAl.CategoryMenu();
-            this.mainPage1 = new SecBegenAl.MainPage();
-            this.kayitOl1 = new SecBegenAl.KayitOl();
-            this.urunDetay1 = new SecBegenAl.UrunDetay();
-            this.urunler3 = new SecBegenAl.Urunler();
+            this.saticiProfil2 = new SecBegenAl.SaticiProfil();
+            this.categoryMenu3 = new SecBegenAl.CategoryMenu();
             this.panel1.SuspendLayout();
             this.KategoriPanel.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -51,20 +51,35 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.panel1.Controls.Add(this.saticiGiris2);
+            this.panel1.Controls.Add(this.mainPage2);
             this.panel1.Controls.Add(this.KategoriPanel);
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.panel2);
-            this.panel1.Controls.Add(this.categoryMenu1);
-            this.panel1.Controls.Add(this.mainPage1);
-            this.panel1.Controls.Add(this.kayitOl1);
-            this.panel1.Controls.Add(this.urunDetay1);
-            this.panel1.Controls.Add(this.urunler3);
+            this.panel1.Controls.Add(this.saticiProfil2);
+            this.panel1.Controls.Add(this.categoryMenu3);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1087, 628);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // saticiGiris2
+            // 
+            this.saticiGiris2.Location = new System.Drawing.Point(263, 194);
+            this.saticiGiris2.Name = "saticiGiris2";
+            this.saticiGiris2.Size = new System.Drawing.Size(524, 603);
+            this.saticiGiris2.TabIndex = 8;
+            // 
+            // mainPage2
+            // 
+            this.mainPage2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.mainPage2.Location = new System.Drawing.Point(0, 135);
+            this.mainPage2.Name = "mainPage2";
+            this.mainPage2.Size = new System.Drawing.Size(1087, 493);
+            this.mainPage2.TabIndex = 5;
+            this.mainPage2.Load += new System.EventHandler(this.mainPage2_Load);
             // 
             // KategoriPanel
             // 
@@ -92,6 +107,7 @@
             // 
             // panel3
             // 
+            this.panel3.Controls.Add(this.saticiGiris1);
             this.panel3.Controls.Add(this.KayıtLabel);
             this.panel3.Controls.Add(this.GirisLabel);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
@@ -99,6 +115,13 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1087, 44);
             this.panel3.TabIndex = 3;
+            // 
+            // saticiGiris1
+            // 
+            this.saticiGiris1.Location = new System.Drawing.Point(0, 0);
+            this.saticiGiris1.Name = "saticiGiris1";
+            this.saticiGiris1.Size = new System.Drawing.Size(524, 603);
+            this.saticiGiris1.TabIndex = 3;
             // 
             // KayıtLabel
             // 
@@ -125,6 +148,7 @@
             this.GirisLabel.Size = new System.Drawing.Size(121, 29);
             this.GirisLabel.TabIndex = 1;
             this.GirisLabel.Text = "Giriş Yap";
+            this.GirisLabel.Click += new System.EventHandler(this.GirisLabel_Click);
             // 
             // panel2
             // 
@@ -149,56 +173,20 @@
             this.closeButton.UseVisualStyleBackColor = false;
             this.closeButton.Click += new System.EventHandler(this.closeButton_Click);
             // 
-            // categoryMenu1
+            // saticiProfil2
             // 
-            this.categoryMenu1.BackColor = System.Drawing.Color.Transparent;
-            this.categoryMenu1.Location = new System.Drawing.Point(464, 132);
-            this.categoryMenu1.Margin = new System.Windows.Forms.Padding(300, 3, 3, 3);
-            this.categoryMenu1.Name = "categoryMenu1";
-            this.categoryMenu1.Size = new System.Drawing.Size(1110, 484);
-            this.categoryMenu1.TabIndex = 6;
-            this.categoryMenu1.Leave += new System.EventHandler(this.categoryMenu1_Leave);
-            this.categoryMenu1.MouseLeave += new System.EventHandler(this.categoryMenu1_MouseLeave);
-            this.categoryMenu1.MouseHover += new System.EventHandler(this.categoryMenu1_MouseHover);
+            this.saticiProfil2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.saticiProfil2.Location = new System.Drawing.Point(0, 0);
+            this.saticiProfil2.Name = "saticiProfil2";
+            this.saticiProfil2.Size = new System.Drawing.Size(1087, 628);
+            this.saticiProfil2.TabIndex = 6;
             // 
-            // mainPage1
+            // categoryMenu3
             // 
-            this.mainPage1.AutoScroll = true;
-            this.mainPage1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.mainPage1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.mainPage1.Location = new System.Drawing.Point(0, 0);
-            this.mainPage1.Name = "mainPage1";
-            this.mainPage1.Size = new System.Drawing.Size(1087, 628);
-            this.mainPage1.TabIndex = 5;
-            this.mainPage1.Enter += new System.EventHandler(this.mainPage1_Enter);
-            this.mainPage1.MouseEnter += new System.EventHandler(this.mainPage1_MouseEnter);
-            this.mainPage1.MouseHover += new System.EventHandler(this.mainPage1_MouseHover);
-            // 
-            // kayitOl1
-            // 
-            this.kayitOl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.kayitOl1.Location = new System.Drawing.Point(0, 0);
-            this.kayitOl1.Name = "kayitOl1";
-            this.kayitOl1.Size = new System.Drawing.Size(1087, 628);
-            this.kayitOl1.TabIndex = 7;
-            // 
-            // urunDetay1
-            // 
-            this.urunDetay1.BackColor = System.Drawing.Color.IndianRed;
-            this.urunDetay1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.urunDetay1.Location = new System.Drawing.Point(0, 0);
-            this.urunDetay1.Name = "urunDetay1";
-            this.urunDetay1.Size = new System.Drawing.Size(1087, 628);
-            this.urunDetay1.TabIndex = 10;
-            // 
-            // urunler3
-            // 
-            this.urunler3.BackColor = System.Drawing.Color.PeachPuff;
-            this.urunler3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.urunler3.Location = new System.Drawing.Point(0, 0);
-            this.urunler3.Name = "urunler3";
-            this.urunler3.Size = new System.Drawing.Size(1087, 628);
-            this.urunler3.TabIndex = 11;
+            this.categoryMenu3.Location = new System.Drawing.Point(447, 164);
+            this.categoryMenu3.Name = "categoryMenu3";
+            this.categoryMenu3.Size = new System.Drawing.Size(1069, 484);
+            this.categoryMenu3.TabIndex = 7;
             // 
             // Form1
             // 
@@ -232,9 +220,14 @@
         private CategoryMenu categoryMenu1;
         private KayitOl kayitOl1;
         private Urunler urunler1;
-        private UrunDetay urunDetay1;
-        private Urunler urunler2;
-        private Urunler urunler3;
+        private CategoryMenu categoryMenu2;
+        private Saticisiparisgor saticisiparisgor1;
+        private SaticiProfil saticiProfil1;
+        private MainPage mainPage2;
+        private SaticiProfil saticiProfil2;
+        private CategoryMenu categoryMenu3;
+        private SaticiGiris saticiGiris2;
+        private SaticiGiris saticiGiris1;
     }
 }
 

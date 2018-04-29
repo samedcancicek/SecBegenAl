@@ -16,13 +16,10 @@ namespace SecBegenAl
         {
             InitializeComponent();
             WindowState = FormWindowState.Maximized;
-            mainPage1.BringToFront();
+            mainPage2.BringToFront();
+           
 
         }
-
-        
-
-
 
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
@@ -36,14 +33,14 @@ namespace SecBegenAl
 
         private void KayıtLabel_Click(object sender, EventArgs e)
         {
-            kayitOl1.BringToFront();
+            saticiGiris2.BringToFront();
         }
 
         private void button6_MouseHover(object sender, EventArgs e)
         {
            
-                //categoryMenu1.BringToFront();
-            categoryMenu1.menugoster();
+               
+            categoryMenu3.BringToFront();
 
         }
         bool kategorimenu = false;
@@ -55,7 +52,7 @@ namespace SecBegenAl
 
         private void categoryMenu1_MouseLeave(object sender, EventArgs e)
         {
-            mainPage1.BringToFront();
+            
         }
 
         private void KategoriPanel_MouseLeave(object sender, EventArgs e)
@@ -90,45 +87,18 @@ namespace SecBegenAl
 
         private void button6_Click(object sender, EventArgs e)
         {
-           
+            urunler1.BringToFront();
+        }
 
+        private void GirisLabel_Click(object sender, EventArgs e)
+        {
+            saticiProfil2.BringToFront();
             
-           // urunler3.BringToFront();
-            urunler3.urunpaneliac();
         }
 
-
-
-
-
-        public void urungetir()
-        {
- 
-            urunDetay1.BringToFront();
-
-        }
-        public void urungetir(PictureBox img) {
-
-
-            urunDetay1.urunyerlestir(img);
-            urunDetay1.BringToFront();
-
-        
-        }
-        public void urungetir(Label lbl)
-        {
-
-            
-            urunDetay1.urunyerlestir(lbl);
-            urunDetay1.BringToFront();
-
-
-        }
-
-        private void categoryMenu1_MouseHover(object sender, EventArgs e)
+        private void mainPage2_Load(object sender, EventArgs e)
         {
 
         }
-
     }
 }
