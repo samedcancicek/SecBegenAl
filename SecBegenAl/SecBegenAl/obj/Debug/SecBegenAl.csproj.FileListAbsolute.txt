@@ -1,0 +1,74 @@
+c:\users\samed\documents\visual studio 2013\Projects\SecBegenAl\SecBegenAl\bin\Debug\SecBegenAl.exe.config
+c:\users\samed\documents\visual studio 2013\Projects\SecBegenAl\SecBegenAl\bin\Debug\SecBegenAl.exe
+c:\users\samed\documents\visual studio 2013\Projects\SecBegenAl\SecBegenAl\bin\Debug\SecBegenAl.pdb
+c:\users\samed\documents\visual studio 2013\Projects\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.Form1.resources
+c:\users\samed\documents\visual studio 2013\Projects\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.Properties.Resources.resources
+c:\users\samed\documents\visual studio 2013\Projects\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.csproj.GenerateResource.Cache
+c:\users\samed\documents\visual studio 2013\Projects\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.exe
+c:\users\samed\documents\visual studio 2013\Projects\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.pdb
+c:\users\samed\documents\visual studio 2013\Projects\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.MainPage.resources
+c:\users\samed\documents\visual studio 2013\Projects\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.CategoryMenu.resources
+c:\users\samed\documents\visual studio 2013\Projects\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.KayitOl.resources
+c:\users\samed\documents\visual studio 2013\Projects\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.Urunler.resources
+C:\Users\samed\Documents\Visual Studio 2013\Projects\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.csprojResolveAssemblyReference.cache
+C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\SecBegenAl\bin\Debug\SecBegenAl.exe.config
+C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.exe
+C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.pdb
+C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\SecBegenAl\bin\Debug\SecBegenAl.exe
+C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\SecBegenAl\bin\Debug\SecBegenAl.pdb
+C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.CategoryMenu.resources
+C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.Dolabim.resources
+C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.Form1.resources
+C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.KayitOl.resources
+C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.MainPage.resources
+C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.Properties.Resources.resources
+C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.SaticiGiris.resources
+C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.SaticiProfil.resources
+C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.Saticisiparisgor.resources
+C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.Urunler.resources
+C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.urun_detay.resources
+C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.csproj.GenerateResource.Cache
+C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.urunlerim.resources
+C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.SaticiBilgiGuncelle.resources
+C:\Users\FatmaNur\Downloads\SecBegenAl-Fatmanur\SecBegenAl-Fatmanur\SecBegenAl\SecBegenAl\SecBegenAl\bin\Debug\SecBegenAl.exe.config
+C:\Users\FatmaNur\Downloads\SecBegenAl-Fatmanur\SecBegenAl-Fatmanur\SecBegenAl\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.exe
+C:\Users\FatmaNur\Downloads\SecBegenAl-Fatmanur\SecBegenAl-Fatmanur\SecBegenAl\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.pdb
+C:\Users\FatmaNur\Downloads\SecBegenAl-Fatmanur\SecBegenAl-Fatmanur\SecBegenAl\SecBegenAl\SecBegenAl\bin\Debug\SecBegenAl.exe
+C:\Users\FatmaNur\Downloads\SecBegenAl-Fatmanur\SecBegenAl-Fatmanur\SecBegenAl\SecBegenAl\SecBegenAl\bin\Debug\SecBegenAl.pdb
+C:\Users\FatmaNur\Downloads\SecBegenAl-Fatmanur\SecBegenAl-Fatmanur\SecBegenAl\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.CategoryMenu.resources
+C:\Users\FatmaNur\Downloads\SecBegenAl-Fatmanur\SecBegenAl-Fatmanur\SecBegenAl\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.Dolabim.resources
+C:\Users\FatmaNur\Downloads\SecBegenAl-Fatmanur\SecBegenAl-Fatmanur\SecBegenAl\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.Form1.resources
+C:\Users\FatmaNur\Downloads\SecBegenAl-Fatmanur\SecBegenAl-Fatmanur\SecBegenAl\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.KayitOl.resources
+C:\Users\FatmaNur\Downloads\SecBegenAl-Fatmanur\SecBegenAl-Fatmanur\SecBegenAl\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.MainPage.resources
+C:\Users\FatmaNur\Downloads\SecBegenAl-Fatmanur\SecBegenAl-Fatmanur\SecBegenAl\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.Properties.Resources.resources
+C:\Users\FatmaNur\Downloads\SecBegenAl-Fatmanur\SecBegenAl-Fatmanur\SecBegenAl\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.SaticiBilgiGuncelle.resources
+C:\Users\FatmaNur\Downloads\SecBegenAl-Fatmanur\SecBegenAl-Fatmanur\SecBegenAl\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.SaticiGiris.resources
+C:\Users\FatmaNur\Downloads\SecBegenAl-Fatmanur\SecBegenAl-Fatmanur\SecBegenAl\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.SaticiProfil.resources
+C:\Users\FatmaNur\Downloads\SecBegenAl-Fatmanur\SecBegenAl-Fatmanur\SecBegenAl\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.Saticisiparisgor.resources
+C:\Users\FatmaNur\Downloads\SecBegenAl-Fatmanur\SecBegenAl-Fatmanur\SecBegenAl\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.Urunler.resources
+C:\Users\FatmaNur\Downloads\SecBegenAl-Fatmanur\SecBegenAl-Fatmanur\SecBegenAl\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.urunlerim.resources
+C:\Users\FatmaNur\Downloads\SecBegenAl-Fatmanur\SecBegenAl-Fatmanur\SecBegenAl\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.urun_detay.resources
+C:\Users\FatmaNur\Downloads\SecBegenAl-Fatmanur\SecBegenAl-Fatmanur\SecBegenAl\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.csproj.GenerateResource.Cache
+C:\Users\FatmaNur\Downloads\SecBegenAl-Fatmanur\SecBegenAl-Fatmanur\SecBegenAl\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.Giris.resources
+C:\Users\FatmaNur\Downloads\SecBegenAl-Fatmanur\SecBegenAl-Fatmanur\SecBegenAl\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.csprojResolveAssemblyReference.cache
+C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\bin\Debug\SecBegenAl.exe.config
+C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\bin\Debug\SecBegenAl.exe
+C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\bin\Debug\SecBegenAl.pdb
+C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.csprojResolveAssemblyReference.cache
+C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.CategoryMenu.resources
+C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.Dolabim.resources
+C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.Form1.resources
+C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.Giris.resources
+C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.KayitOl.resources
+C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.MainPage.resources
+C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.Properties.Resources.resources
+C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.SaticiBilgiGuncelle.resources
+C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.SaticiGiris.resources
+C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.SaticiProfil.resources
+C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.Saticisiparisgor.resources
+C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.Urunler.resources
+C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.urunlerim.resources
+C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.urun_detay.resources
+C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.csproj.GenerateResource.Cache
+C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.exe
+C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.pdb
