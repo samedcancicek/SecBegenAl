@@ -45,7 +45,7 @@ namespace SecBegenAl
             KayıtLabel.Show();
             saticiol.Show();
             analabel.Hide();
-            profil2.Hide();
+         //   profil2.Hide();
             mainPage1.Show();
             sepet1.Hide();
             profilY.Hide();
