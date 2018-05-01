@@ -54,7 +54,6 @@ C:\Users\FatmaNur\Downloads\SecBegenAl-Fatmanur\SecBegenAl-Fatmanur\SecBegenAl\S
 C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\bin\Debug\SecBegenAl.exe.config
 C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\bin\Debug\SecBegenAl.exe
 C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\bin\Debug\SecBegenAl.pdb
-C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.csprojResolveAssemblyReference.cache
 C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.CategoryMenu.resources
 C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.Dolabim.resources
 C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.Form1.resources
@@ -68,7 +67,7 @@ C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.SaticiProfi
 C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.Saticisiparisgor.resources
 C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.Urunler.resources
 C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.urunlerim.resources
-C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.urun_detay.resources
 C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.csproj.GenerateResource.Cache
 C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.exe
 C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.pdb
+C:\Users\FatmaNur\Desktop\SecBegenAl\SecBegenAl\obj\Debug\SecBegenAl.csprojResolveAssemblyReference.cache
