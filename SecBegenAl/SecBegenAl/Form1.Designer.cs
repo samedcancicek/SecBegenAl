@@ -31,10 +31,10 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
             this.KategoriPanel = new System.Windows.Forms.Panel();
+            this.profil1 = new SecBegenAl.Profil();
             this.button6 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.profilY = new System.Windows.Forms.Label();
             this.cikis = new System.Windows.Forms.Label();
             this.sepetim = new System.Windows.Forms.Label();
             this.ProfilLabel = new System.Windows.Forms.Label();
@@ -44,8 +44,6 @@
             this.analabel = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.closeButton = new System.Windows.Forms.Button();
-            this.sepet1 = new SecBegenAl.Sepet();
-            this.profil1 = new SecBegenAl.Profil();
             this.girisyap1 = new SecBegenAl.Girisyap();
             this.kayitOl1 = new SecBegenAl.KayitOl();
             this.saticiKayit1 = new SecBegenAl.SaticiKayit();
@@ -53,6 +51,8 @@
             this.categoryMenu1 = new SecBegenAl.CategoryMenu();
             this.mainPage1 = new SecBegenAl.MainPage();
             this.profil2 = new SecBegenAl.Profil();
+            this.sepet1 = new SecBegenAl.Sepet();
+            this.profilY = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.KategoriPanel.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -95,6 +95,14 @@
             this.KategoriPanel.TabIndex = 4;
             this.KategoriPanel.MouseLeave += new System.EventHandler(this.KategoriPanel_MouseLeave);
             // 
+            // profil1
+            // 
+            this.profil1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.profil1.Location = new System.Drawing.Point(0, 44);
+            this.profil1.Name = "profil1";
+            this.profil1.Size = new System.Drawing.Size(814, 400);
+            this.profil1.TabIndex = 6;
+            // 
             // button6
             // 
             this.button6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
@@ -133,20 +141,6 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(815, 36);
             this.panel4.TabIndex = 3;
-            // 
-            // profilY
-            // 
-            this.profilY.AutoSize = true;
-            this.profilY.BackColor = System.Drawing.Color.Transparent;
-            this.profilY.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.profilY.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.profilY.ForeColor = System.Drawing.Color.SlateBlue;
-            this.profilY.Location = new System.Drawing.Point(118, 35);
-            this.profilY.Name = "profilY";
-            this.profilY.Size = new System.Drawing.Size(57, 24);
-            this.profilY.TabIndex = 8;
-            this.profilY.Text = "Profil";
-            this.profilY.Click += new System.EventHandler(this.profilY_Click);
             // 
             // cikis
             // 
@@ -279,21 +273,6 @@
             this.closeButton.UseVisualStyleBackColor = false;
             this.closeButton.Click += new System.EventHandler(this.closeButton_Click);
             // 
-            // sepet1
-            // 
-            this.sepet1.Location = new System.Drawing.Point(0, 66);
-            this.sepet1.Name = "sepet1";
-            this.sepet1.Size = new System.Drawing.Size(1445, 1400);
-            this.sepet1.TabIndex = 7;
-            // 
-            // profil1
-            // 
-            this.profil1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.profil1.Location = new System.Drawing.Point(0, 44);
-            this.profil1.Name = "profil1";
-            this.profil1.Size = new System.Drawing.Size(814, 400);
-            this.profil1.TabIndex = 6;
-            // 
             // girisyap1
             // 
             this.girisyap1.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
@@ -352,6 +331,7 @@
             this.mainPage1.Name = "mainPage1";
             this.mainPage1.Size = new System.Drawing.Size(815, 510);
             this.mainPage1.TabIndex = 14;
+            this.mainPage1.Load += new System.EventHandler(this.mainPage1_Load_1);
             // 
             // profil2
             // 
@@ -360,6 +340,27 @@
             this.profil2.Name = "profil2";
             this.profil2.Size = new System.Drawing.Size(1445, 1797);
             this.profil2.TabIndex = 8;
+            // 
+            // sepet1
+            // 
+            this.sepet1.Location = new System.Drawing.Point(0, 66);
+            this.sepet1.Name = "sepet1";
+            this.sepet1.Size = new System.Drawing.Size(1445, 1400);
+            this.sepet1.TabIndex = 7;
+            // 
+            // profilY
+            // 
+            this.profilY.AutoSize = true;
+            this.profilY.BackColor = System.Drawing.Color.Transparent;
+            this.profilY.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.profilY.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.profilY.ForeColor = System.Drawing.Color.SlateBlue;
+            this.profilY.Location = new System.Drawing.Point(118, 35);
+            this.profilY.Name = "profilY";
+            this.profilY.Size = new System.Drawing.Size(57, 24);
+            this.profilY.TabIndex = 8;
+            this.profilY.Text = "Profil";
+            this.profilY.Click += new System.EventHandler(this.profilY_Click);
             // 
             // Form1
             // 

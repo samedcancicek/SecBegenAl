@@ -17,7 +17,7 @@ namespace SecBegenAl
     {
         OleDbConnection baglanti  = new OleDbConnection("Provider=Microsoft.ACE.OleDb.12.0;Data Source=SecBegen.accdb");
         OleDbDataAdapter da;
-
+        kullanici ham;
         public int a = 0;
 
         public Girisyap()
@@ -86,6 +86,16 @@ namespace SecBegenAl
                     f.girisYapti(int.Parse(row["Kullanici_id"].ToString()));
                     this.ParentForm.Hide();
                     a = 1;
+
+
+                    ham = new kullanici();
+                    ham.Eposta = (row["Eposta"].ToString());
+                    ham.Parola = (row["Parola"].ToString());
+                    ham.Ad = (row["Ad"].ToString());
+                    ham.Soyad = (row["Soyad"].ToString());
+                    ham.Telefon = (row["Telefon"].ToString());
+                    ham.Adres = (int.Parse(row["Adres"].ToString()));
+                    ham.DogumTarihi = (row["DogumTarihi"].ToString());
                 }
                       
               }

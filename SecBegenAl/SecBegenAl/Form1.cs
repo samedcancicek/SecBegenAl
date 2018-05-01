@@ -19,7 +19,8 @@ namespace SecBegenAl
             mainPage1.BringToFront();
             girisYok();
         }
-        int kullanici_id;
+        int kullanici_id;//bunu nesne yapmıcaz mı
+        
         public void girisYapti(int kullanici_id)
         {
             this.kullanici_id = kullanici_id;
@@ -29,6 +30,7 @@ namespace SecBegenAl
             saticiol.Hide();
             ProfilLabel.Show();
             sepetim.Show();
+           
             cikis.Show();
             analabel.Hide();
             profilY.Hide();
@@ -153,7 +155,8 @@ namespace SecBegenAl
       
             profil2.Hide();
             sepet1.Show();
-            sepet1.sepetGoruntule();
+            sepet1.sepetimiGoster(kullanici_id);//burda olması lazım +1  eegerisi sende o zaman ürünleri flowlayout ile gösterecen 
+           
             categoryMenu2.Hide();
             ProfilLabel.Hide();
             analabel.Show();
@@ -175,7 +178,7 @@ namespace SecBegenAl
         private void Profil_Click(object sender, EventArgs e)
         {
             profil2.Show();
-            profil2.profilGoruntule();
+            profil2.profilGoruntule(kullanici_id);
             categoryMenu2.Hide();
             ProfilLabel.Hide();
             analabel.Show();
@@ -217,7 +220,7 @@ namespace SecBegenAl
         private void profilY_Click(object sender, EventArgs e)
         {
             profil2.Show();
-            profil2.profilGoruntule();
+            profil2.profilGoruntule(kullanici_id);
             categoryMenu2.Hide();
             ProfilLabel.Hide();
             analabel.Show();
@@ -229,6 +232,11 @@ namespace SecBegenAl
             KategoriPanel.Hide();
             profilY.Hide();
             sepetim.Show();
+        }
+
+        private void mainPage1_Load_1(object sender, EventArgs e)
+        {
+
         }
     }
 }
