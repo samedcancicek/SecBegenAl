@@ -109,6 +109,8 @@
     <Compile Include="Saticisiparisgor.Designer.cs">
       <DependentUpon>Saticisiparisgor.cs</DependentUpon>
     </Compile>
+    <Compile Include="Siparisler.cs" />
+    <Compile Include="Urun.cs" />
     <Compile Include="Urunler.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -120,12 +122,6 @@
     </Compile>
     <Compile Include="urunlerim.Designer.cs">
       <DependentUpon>urunlerim.cs</DependentUpon>
-    </Compile>
-    <Compile Include="urun_detay.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="urun_detay.Designer.cs">
-      <DependentUpon>urun_detay.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="CategoryMenu.resx">
       <DependentUpon>CategoryMenu.cs</DependentUpon>
@@ -172,9 +168,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="urunlerim.resx">
       <DependentUpon>urunlerim.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="urun_detay.resx">
-      <DependentUpon>urun_detay.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

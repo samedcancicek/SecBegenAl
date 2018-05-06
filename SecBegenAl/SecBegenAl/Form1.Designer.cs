@@ -30,10 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.saticiGiris1 = new SecBegenAl.SaticiGiris();
-            this.saticiBilgiGuncelle1 = new SecBegenAl.SaticiBilgiGuncelle();
-            this.giris1 = new SecBegenAl.Giris();
-            this.mainPage2 = new SecBegenAl.MainPage();
             this.KategoriPanel = new System.Windows.Forms.Panel();
             this.button6 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -41,6 +37,10 @@
             this.GirisLabel = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.closeButton = new System.Windows.Forms.Button();
+            this.saticiGiris1 = new SecBegenAl.SaticiGiris();
+            this.saticiBilgiGuncelle1 = new SecBegenAl.SaticiBilgiGuncelle();
+            this.giris1 = new SecBegenAl.Giris();
+            this.mainPage2 = new SecBegenAl.MainPage();
             this.saticiProfil2 = new SecBegenAl.SaticiProfil();
             this.categoryMenu3 = new SecBegenAl.CategoryMenu();
             this.panel1.SuspendLayout();
@@ -67,36 +67,6 @@
             this.panel1.Size = new System.Drawing.Size(1087, 628);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
-            // 
-            // saticiGiris1
-            // 
-            this.saticiGiris1.Location = new System.Drawing.Point(113, 173);
-            this.saticiGiris1.Name = "saticiGiris1";
-            this.saticiGiris1.Size = new System.Drawing.Size(524, 603);
-            this.saticiGiris1.TabIndex = 3;
-            // 
-            // saticiBilgiGuncelle1
-            // 
-            this.saticiBilgiGuncelle1.Location = new System.Drawing.Point(461, 135);
-            this.saticiBilgiGuncelle1.Name = "saticiBilgiGuncelle1";
-            this.saticiBilgiGuncelle1.Size = new System.Drawing.Size(560, 629);
-            this.saticiBilgiGuncelle1.TabIndex = 10;
-            // 
-            // giris1
-            // 
-            this.giris1.Location = new System.Drawing.Point(3, 135);
-            this.giris1.Name = "giris1";
-            this.giris1.Size = new System.Drawing.Size(634, 458);
-            this.giris1.TabIndex = 8;
-            // 
-            // mainPage2
-            // 
-            this.mainPage2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.mainPage2.Location = new System.Drawing.Point(0, 135);
-            this.mainPage2.Name = "mainPage2";
-            this.mainPage2.Size = new System.Drawing.Size(1087, 493);
-            this.mainPage2.TabIndex = 5;
-            this.mainPage2.Load += new System.EventHandler(this.mainPage2_Load);
             // 
             // KategoriPanel
             // 
@@ -181,6 +151,37 @@
             this.closeButton.TabIndex = 1;
             this.closeButton.UseVisualStyleBackColor = false;
             this.closeButton.Click += new System.EventHandler(this.closeButton_Click);
+            // 
+            // saticiGiris1
+            // 
+            this.saticiGiris1.Location = new System.Drawing.Point(113, 173);
+            this.saticiGiris1.Name = "saticiGiris1";
+            this.saticiGiris1.Size = new System.Drawing.Size(524, 603);
+            this.saticiGiris1.TabIndex = 3;
+            // 
+            // saticiBilgiGuncelle1
+            // 
+            this.saticiBilgiGuncelle1.Location = new System.Drawing.Point(461, 135);
+            this.saticiBilgiGuncelle1.Name = "saticiBilgiGuncelle1";
+            this.saticiBilgiGuncelle1.Size = new System.Drawing.Size(560, 629);
+            this.saticiBilgiGuncelle1.TabIndex = 10;
+            this.saticiBilgiGuncelle1.Load += new System.EventHandler(this.saticiBilgiGuncelle1_Load);
+            // 
+            // giris1
+            // 
+            this.giris1.Location = new System.Drawing.Point(3, 135);
+            this.giris1.Name = "giris1";
+            this.giris1.Size = new System.Drawing.Size(634, 458);
+            this.giris1.TabIndex = 8;
+            // 
+            // mainPage2
+            // 
+            this.mainPage2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.mainPage2.Location = new System.Drawing.Point(0, 135);
+            this.mainPage2.Name = "mainPage2";
+            this.mainPage2.Size = new System.Drawing.Size(1087, 493);
+            this.mainPage2.TabIndex = 5;
+            this.mainPage2.Load += new System.EventHandler(this.mainPage2_Load);
             // 
             // saticiProfil2
             // 

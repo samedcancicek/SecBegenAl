@@ -33,8 +33,8 @@ namespace SecBegenAl
 
 
             baglanti.Open();
-            string ad = textBox1.Text;
-            string sifre = textBox2.Text;
+            string ad = textBox1.Text="lcw";
+            string sifre = textBox2.Text="g";
             OleDbCommand kaydetcmd = new OleDbCommand("SELECT * From Satici WHERE Firma_Adi = '" + textBox1.Text + "' AND Parola = '" + textBox2.Text + "'", baglanti);
 
             OleDbDataReader oku = kaydetcmd.ExecuteReader();
@@ -58,16 +58,9 @@ namespace SecBegenAl
                     satici.satici_id = int.Parse(row["Satici_id"].ToString());
                     satici.dosyaadi = row["dosyaAdi"].ToString();
                     satici.adres = row["Satici_Adres"].ToString();
+                   
 
-                    
-
-                }
-
-
-
-
-
-
+               }
 
                     Form1 form1 = new Form1();
                 form1.saticiGirisYapildi(satici);
@@ -77,7 +70,6 @@ namespace SecBegenAl
                 form1.Show();
 
 
-                MessageBox.Show("Girisyapıldı");
               
                     }
             else if (textBox1.Text == "")
@@ -92,6 +84,7 @@ namespace SecBegenAl
             {
                 MessageBox.Show("Kullanıcı Adı veya Parola Yanlış.", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+            baglanti.Close();
         }
     }
 }

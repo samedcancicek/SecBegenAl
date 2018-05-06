@@ -112,8 +112,9 @@ namespace SecBegenAl
             
         }
 
+        private void saticiBilgiGuncelle1_Load(object sender, EventArgs e)
+        {
 
-
-
+        }
     }
 }
